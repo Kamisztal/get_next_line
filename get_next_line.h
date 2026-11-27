@@ -20,5 +20,9 @@
 
 char	*get_next_line(int fd);
 
+//utils
+char	*stash_read(int fd, char *stash);
+char	*ft_strjoin(char const *s1, char const *s2)
+
 # endif
 #endif
